@@ -1,0 +1,266 @@
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    background: #FFFFFF;
+}
+  
+main{
+    width: 1350px;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+.main2{
+    width: 1350px;
+    background: #F4F4F4;
+    margin: 0 auto;
+}
+
+
+/* Cabecera Pagina */  
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #24282b;
+    color: #FFF;
+    border-bottom: 5px solid #1593d4;
+    padding: 0 50px;
+    height: 100px;
+}
+  
+span{
+    color: #1593d4;
+}
+
+.color{
+    color: #1593d4;
+}
+  
+nav{
+    width: 40%;
+}
+  
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav ul a:hover{
+    color: #1593d4;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(../images/cabecera.jpg) 0 -200px;
+    background-size: cover;
+    height: 400px;
+    padding: 0 50px;
+    color: #FFF;
+}
+
+.logo h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.logo p{
+    width: 90%;
+    font-size: 20px;
+}
+
+
+/* Session Suscripcion */
+.suscrip{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #24282b;
+    padding: 0 50px;
+    height: 100px;
+    color: #FFF;
+}
+
+.suscrip h4{
+    font-size: 25px;
+}
+
+.suscrip input{
+    padding: 10px 80px 10px 10px;
+}
+
+.suscrip .input2{
+    padding: 10px; 
+}
+
+.suscrip input[type=button]{
+    background-color: #E8491D;
+    color: #FFF;
+    border: 1px solid #E8491D;
+}
+
+.suscrip input[type=button]:hover{
+    background-color: #FFF;
+    color: #E8491D;
+    border: 1px solid #FFF;
+}
+
+
+/* imagenes lenguajes Index*/
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 50px;
+    height: 350px;
+}
+
+.imgs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 90%;
+}
+
+.imgs img{
+    width:35%;
+}
+
+/* Diseño Nosotros */
+.noso{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.texto{
+    width: 65%;
+}
+
+.texto p{
+    margin: 10px 0;
+}
+
+.texto h2{
+    margin: 10px 0;
+}
+
+.colo-tex{
+    background: #35424a;
+    color: #FFF;
+    padding: 20px;
+}
+
+.texto img{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.hacemos1{
+    margin: 20px 0;
+    background: #35424a;
+    color: #FFF;
+    padding: 20px;
+}
+
+/* Diseño Servicios */
+.servi{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.hacemos2{
+    margin: 20px 0;
+    background: #35424a;
+    color: #FFF;
+    padding: 20px;
+}
+
+.cuadros1{
+    background: #E6E6E6;
+    border:1px solid #CCC;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+/* Diseño Contacto */
+.conta{
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+    padding: 0 50px;
+    gap: 30px;
+}
+
+.formu input, textarea{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.formu button{
+    background: #E8491D;
+    color: #FFF;
+    padding: 10px;
+    width: 103%;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.conte-textos{
+    width: 65%;
+}
+  
+.conte-textos p, h2{
+    margin: 10px 0;
+}
+  
+.conten-textos img{
+    width: 100%;
+    margin: 10px 0;
+}
+  
+aside{
+    width: 35%;
+}
+  
+aside img{
+    width: 100%;
+}
+  
+
+/* Pie de Pagina */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background: #1593d4;
+    color: #FFF;
+}
